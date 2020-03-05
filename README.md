@@ -1,68 +1,80 @@
-<p align="right">
-    <a href="https://badge.fury.io/rb/just-the-docs"><img src="https://badge.fury.io/rb/just-the-docs.svg" alt="Gem version"></a> <a href="https://github.com/pmarsceill/just-the-docs/actions"><img src="https://github.com/pmarsceill/just-the-docs/workflows/CI/badge.svg" alt="Build status"></a>
-</p>
-<br><br>
-<p align="center">
-    <h1 align="center">Just the Docs</h1>
-    <p align="center">A modern, highly customizable, and responsive Jekyll theme for documentation with built-in search.<br>Easily hosted on GitHub Pages with few dependencies.</p>
-    <p align="center"><strong><a href="https://pmarsceill.github.io/just-the-docs/">See it in action!</a></strong></p>
-    <br><br><br>
-</p>
+## My Stack Problems
 
-![jtd](https://user-images.githubusercontent.com/896475/47384541-89053c80-d6d5-11e8-98dc-dba16e192de9.gif)
+> This project forked and has been modified from [A simple grey theme for Jekyll](https://github.com/liamsymonds/simplygrey-jekyll),
+> and the search posts using [Super Search](https://github.com/chinchang/super-search)
 
-## Installation
+### Demo
+* [https://agusmakmun.github.io](https://agusmakmun.github.io)
 
-Add this line to your Jekyll site's Gemfile:
+#### Features
 
-```ruby
-gem "just-the-docs"
+* Sitemap and XML Feed
+* Pagination in homepage
+* Posts under category
+* Realtime Search Posts _(title & description)_ by query.
+* Related Posts
+* Highlight pre
+* Next & Previous Post
+* Disqus comment
+* Projects page & Detail Project page
+* Share on social media
+* Google analytics
+* HTML Minify _(Compress HTML)_ using [Jekyll Compress HTML](https://github.com/penibelst/jekyll-compress-html)
+
+#### Screenshot
+
+![Screenshot Post Page](https://raw.githubusercontent.com/agusmakmun/agusmakmun.github.io/master/static/img/screenshot-post-page.png  "Screenshot Post Page")
+
+### Install & Configuration
+
+1. Fork this repository
+2. Edit site settings inside file of `_config.yml`
+3. Edit your projects at file of `projects.md`, `_data/projects.json` and inside path of `_project/` _(for detail project)_.
+4. Edit about yourself inside file of `about.md`
+
+### How to Use?
+
+**a. Add new Category**
+
+All categories saved inside path of `category/`, you can see the existed categories.
+
+**b. Add new Posts**
+
+* All posts bassed on markdown syntax _(please googling)_. allowed extensions is `*.markdown` or `*.md`.
+* This files can found at the path of `_posts/`.
+* and the name of files are following `<date:%Y-%m-%d>-<slug>.<extension>`, for example:
+
+```
+2013-09-23-welcome-to-jekyll.md
+
+# or
+
+2013-09-23-welcome-to-jekyll.markdown
 ```
 
-And add this line to your Jekyll site's `_config.yml`:
+Inside the file of it,
 
-```yaml
-theme: just-the-docs
+```
+---
+layout: post                          # (require) default post layout
+title: "Your Title"                   # (require) a string title
+date: 2016-04-20 19:51:02 +0700       # (require) a post date
+categories: [python, django]          # (custom) some categories, but makesure these categories already exists inside path of `category/`
+tags: [foo, bar]                      # (custom) tags only for meta `property="article:tag"`
+image: Broadcast_Mail.png             # (custom) image only for meta `property="og:image"`, save your image inside path of `static/img/_posts`
+---
+
+# your content post with markdown syntax goes here...
 ```
 
-And then execute:
 
-    $ bundle
+#### Installing in your local
 
-Or install it yourself as:
+```
+bundle install
+jekyll serve
+```
 
-    $ gem install just-the-docs
+### Contributing
 
-## Usage
-
-[View the documentation](https://pmarsceill.github.io/just-the-docs/) for usage information.
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/pmarsceill/just-the-docs. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-### Submitting code changes:
-
-- Open a [Pull Request](https://github.com/pmarsceill/just-the-docs/pulls)
-- Ensure all CI tests pass
-- Await code review
-- Bump the version number in `just-the-docs.gemspec` and `package.json` according to [semantic versioning](https://semver.org/).
-
-### Design and development principles of this theme:
-
-1. As few dependencies as possible
-2. No build script needed
-3. First class mobile experience
-4. Make the content shine
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is set up just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When the theme is released, only the files in `_layouts`, `_includes`, and `_sass` tracked with Git will be released.
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+Feel free to [open a bug](https://github.com/agusmakmun/agusmakmun.github.io/issues) or [contribute to code](https://github.com/agusmakmun/agusmakmun.github.io/pulls)!
