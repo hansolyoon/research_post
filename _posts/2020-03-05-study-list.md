@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Paper lists in categories
+title: To-do list
 category: jekyll 
-<!-- description: Simple is a beautiful but functional jekyll theme. The font-type setting looks really good when writers use CJK mixed with English. -->
+description: Mar 5.
 ---
 
 The basic styles: [link](http://github.com/wild-flame/jekyll-simple), **strong**, *italic*, <del>deletion</del>, <ins>insertion</ins>.
@@ -23,7 +23,7 @@ The basic styles: [link](http://github.com/wild-flame/jekyll-simple), **strong**
 	- List all relevant papers and categorize them.
 	- Intent monitoring, runtime verification.
 	- Survey my area.
-		
+
 
 <!-- 
 # Header 1
