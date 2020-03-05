@@ -2,17 +2,30 @@
 layout: post
 title:  Paper lists in categories
 category: jekyll 
-description: Simple is a beautiful but functional jekyll theme. The font-type setting looks really good when writers use CJK mixed with English.
+<!-- description: Simple is a beautiful but functional jekyll theme. The font-type setting looks really good when writers use CJK mixed with English. -->
 ---
 
-Simple is a beautiful but functional jekyll theme. The font-type setting looks really good when writers use CJK mixed with English.
-
-First of all, let's have a glance at the basic styles: [link](http://github.com/wild-flame/jekyll-simple), **strong**, *italic*, <del>deletion</del>, <ins>insertion</ins>.
+The basic styles: [link](http://github.com/wild-flame/jekyll-simple), **strong**, *italic*, <del>deletion</del>, <ins>insertion</ins>.
 
 <!--description-->
 
 ### Headers:
+- Try to use some tools for calculating reachable sets like Flow\*, C2E2, DryVR.
+- Is it possible to use the concept of reachable set to social problems?
+- Prepare for RV paper.
+- Prepare for internship in Purdue.
+- Read some intro level books.
+- Study basic terminologies like 'rotation invariant.'
+- Do not put too many things in my to-do list.
+- Push IROS codes.
+- Analyze Lidar data.
+- Prepare my area exam.
+	- List all relevant papers and categorize them.
+	- Intent monitoring, runtime verification.
+	- Survey my area.
+		
 
+<!-- 
 # Header 1
 
 ## Header 2
@@ -108,4 +121,4 @@ function foo(){
 	console.log('foo');
 }
 
-```
+``` -->
