@@ -5,11 +5,12 @@ category: jekyll
 description: Mar 5.
 ---
 
-The basic styles: [link](http://github.com/wild-flame/jekyll-simple), **strong**, *italic*, <del>deletion</del>, <ins>insertion</ins>.
+To-do list
+<!-- The basic styles: [link](http://github.com/wild-flame/jekyll-simple), **strong**, *italic*, <del>deletion</del>, <ins>insertion</ins>. -->
 
 <!--description-->
 
-### Headers:
+### To-do list:
 - Try to use some tools for calculating reachable sets like Flow\*, C2E2, DryVR.
 - Is it possible to use the concept of reachable set to social problems?
 - Prepare for RV paper.
@@ -23,6 +24,8 @@ The basic styles: [link](http://github.com/wild-flame/jekyll-simple), **strong**
 	- List all relevant papers and categorize them.
 	- Intent monitoring, runtime verification.
 	- Survey my area.
+	- Read papers regularly.
+	- Summarize papers in this blog.
 
 
 <!-- 
