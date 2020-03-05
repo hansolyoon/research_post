@@ -1,56 +1,29 @@
-title: My research diary
-description: One post per day
-author: Hansol Yoon
-github: https://github.com/hansolyoon
-about: Hansol
-disqus_shortname: hansol
-# google_analytics: UA-XXXXXXXX-Y
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-enableTags: true
-tagarray: []
+# Site settings
+title: Research Posts
+email: hansol.yoon@colorado.edu
+description: > # this means to ignore newlines until "baseurl:"
+  Research Posts
+baseurl: "/research_post" # the subpath of your site, e.g. /blog
+url: "http://hansolyoon.github.io" # the base hostname & protocol for your site
+# twitter_username: Taffyer 
+# github_username:  wild-flame 
 
-collections:
-  project:
-    output: true
-    permalink: /project/:path/
-
-social:
-    - icon: fa-facebook
-      link: "#"
-    - icon: fa-twitter
-      link: "#"
-    - icon: fa-linkedin
-      link: "#"
-    - icon: fa-stack-exchange
-      link: "#"
-    - icon: fa-github
-      link: "https://github.com/hansolyoon"
-
-share:
-  # twitter_username: github.io
-  # fb_appid: 1749788565247320
-
-urls:
-    - text: About Me
-      url: /about/
-    - text: My Projects
-      url: /projects/
-    # - text: XML Feed
-    #   url: /feed.xml
-
-url: "https://hansolyoon.github.io/research_post/"
-baseurl: ""
-paginate: 20
-per_page: 20
-paginate_path: "/page/:num/"
+# Build settings
 markdown: kramdown
-gems:
-  - jekyll-paginate
-  - jekyll-gist
+kramdown:
+  input: GFM
 
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
-  ignore:
-    envs: ['development']
+# Third-party services
+# just leave someone empty to disable it
+# google_analytics: 
+disqus_shortname:
+
+# used this for post_excerpt at index_page
+excerpt_separator: <!--description-->
