@@ -2,10 +2,10 @@
 layout: post
 title: To-do list
 category: jekyll 
-description: Mar 5.
+description: This is a to-do list.
 ---
 
-To-do list
+To-do list...
 <!-- The basic styles: [link](http://github.com/wild-flame/jekyll-simple), **strong**, *italic*, <del>deletion</del>, <ins>insertion</ins>. -->
 
 <!--description-->
