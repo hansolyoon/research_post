@@ -9,8 +9,8 @@ description: Reachability is the task of figuring out what states a dynamical sy
 #### Lecture info:
 - Title: Cognitive Robotics
 - Instructor: Prof. Brian Charles Williams
-- As Taught In: Spring 2016
 - MIT Course Number: 16.412J / 6.834J
+- As Taught In: Spring 2016
 
 ----------
 
@@ -39,11 +39,11 @@ description: Reachability is the task of figuring out what states a dynamical sy
  **"Flow tubes" or "funnels"**: a certain area of state space where a dynamic system and some control rules guarantee that you will eventually reach.
 
 --------
-### Questions:
+#### Questions:
 - What are the differences between flow tubes and funnel? Only funnel considers uncertainty?
 
 --------
-### Interesting references
+#### Interesting references
 - Bradley and Zhao, 1993; Frazzoli, 2001 - Flow tubes 
 - Hoffman and Williams, 2006 - Flow tubes with temporal constraints
 - Tobenkin, Manchester, and Tedrake, 2011; Majumdar and Tedrake, 2012 - Funnels
@@ -53,5 +53,5 @@ description: Reachability is the task of figuring out what states a dynamical sy
 - G. Bledt, A. Majumdar, A. J. Barry, R. Tedrake, UAV Trajectory Planning and Optimization for High Speed Flight with Uncertainties Using Computer Vision Through Forest, Presented at the MIT summer research program poster session.
 
 --------
-Source: https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-412j-cognitive-robotics-spring-2016/lecture-notes/MIT16_412JS16_L18.pdf
+**Source**: https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-412j-cognitive-robotics-spring-2016/lecture-notes/MIT16_412JS16_L18.pdf
 
