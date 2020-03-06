@@ -5,11 +5,13 @@ category: jekyll
 use_math: true
 description: Reachability is the task of figuring out what states a dynamical system could possibly reach.
 ---
+
 #### Lecture info:
 - Title: Cognitive Robotics
 - Instructor: Prof. Brian Charles Williams
-- MIT Course Number: 16.412J / 6.834J
 - As Taught In: Spring 2016
+- MIT Course Number: 16.412J / 6.834J
+
 ----------
 
 ### Reachability 
