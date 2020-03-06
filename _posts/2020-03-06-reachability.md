@@ -21,10 +21,8 @@ description: Reachability is the task of figuring out what states a dynamical sy
 
  *How to represent reachable sets?* 
 
-```
  $R(X_0, t)$: the reach set at time t is the set of states x for which there exists a sequence of control inputs $u_0, ... u_{t-1}$ that would take us from a state $x_0 \in X_0$ to state x
  -> $R(X_0, s+t) = R(R(X_0,s),t)$
-```
 
  In a Finite state machine, we could represent reach sets as finite sets.
  In a continuous system, a reach set will be a region of the state space, so we need a symbolic representation.
@@ -39,7 +37,7 @@ description: Reachability is the task of figuring out what states a dynamical sy
 
 --------
 ### Questions:
-- What is the difference between flow tubes and funnel? Only funnel considers uncertainty?
+- What are the differences between flow tubes and funnel? Only funnel considers uncertainty?
 
 --------
 ### Interesting references
