@@ -29,6 +29,9 @@ To-do list...
 	- Watch lectures (Sriram, MIT, Coursera...) - Find some intro class of CPS, RV, FM, LP, Statistics... (refer to classes recommended in universities in Korea).
 	- store some interesting books and read them regularly.
 - List all 2020 conferences
+- 프리림에 맞게 runtime monitoring 이랑 intent, reachability에 맞는 lecture note, intro논문등 읽고
+논문 읽기랑 기본서를 거기에 관련된거로... 시험준비에 올인. 하면서 주제도 찾기
+- 오토마타 수업. 다른 교수, 학교에서 하는 기본 수업?
 
 
 <!-- 
