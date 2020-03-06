@@ -25,7 +25,10 @@ To-do list
 	- Intent monitoring, runtime verification.
 	- Survey my area.
 	- Read papers regularly.
-	- Summarize papers in this blog.
+	- Summarize papers in this blog. (review, bibtex)
+	- Watch lectures (Sriram, MIT, Coursera...) - Find some intro class of CPS, RV, FM, LP, Statistics... (refer to classes recommended in universities in Korea).
+	- store some interesting books and read them regularly.
+- List all 2020 conferences
 
 
 <!-- 
