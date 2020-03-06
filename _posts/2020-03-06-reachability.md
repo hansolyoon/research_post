@@ -2,6 +2,7 @@
 layout: post
 title: Reachability
 category: jekyll 
+use_math: true
 description: Reachability is the task of figuring out what states a dynamical system could possibly reach.
 ---
 #### Lecture info:
