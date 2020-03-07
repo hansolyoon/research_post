@@ -22,7 +22,18 @@ RV is a ~supplementary technique~ to other common methods. RV can check that sys
 #### System Requirements
 Requirements elicitation is one of the most difficult aspects of safety critical system design. What we can do is to translate from traditional informal system requirements to formal logic-based requirements.
 
+#### Safety-Critical Systems
+*Embedded systems* are systems which include a computer but are not used for general purpose computing. *Safaty critical systems* are systems whose failure can result in loss of life, significant property damage, or damage to the environment.
 
+For the system specification, informal specification language like natual language, can lead to incorrect requirements and has ambiguities inherent. On the contrary, formal specification have many benefits including being unambiguous and checkable for syntactic correctness. But it is complex and error-prone, so many specification patterns have been proposed.
+
+#### System Verification
+**Verification** is the process of ensuring that the system adheres to its design specification. RV provides verification about the actual system rather than a model of the system. 
+
+#### Runtime Verification
+RV can be performed *online* or *offline* from recorded log files. A correctness property specified in a formal logic, mostly LTL, is translated into a monitor. 
+- Safety properties: informally, "something bad does not happen"
+- Liveness: "a good thing eventually happens" (bounded liveness properties are essentially safety properties)
 
 --------
 ### Ideas:
@@ -32,6 +43,7 @@ Requirements elicitation is one of the most difficult aspects of safety critical
 - It says most RV are not designed to monitor black-box CPS. Then how does DryVR handle black-box CPS? [DryVR](https://dryvr-02.readthedocs.io/en/latest/status.html)
 - RV does not use model abstractions?
 - If RV detects current violations, is it useful? It seems that it would be very easy with a simple program. From my understanding, only predictive RV is useful.
+- What is three-valued or four-valued variants in LTL?
 
 --------
 ### Interesting references
