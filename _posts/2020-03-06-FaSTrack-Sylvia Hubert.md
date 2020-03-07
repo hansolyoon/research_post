@@ -14,7 +14,8 @@ FaSTrack allows users to implement a fast motion planner for simplified dynamics
 
 --------
 ### Ideas:
-- Like a quadcopter simulation video in example section, can we infer the position of the obstacle by looking at the direction of the aircraft flying to the known goal region? If possible, we can infer intents without map information.
+- Like a quadcopter simulation video in example section, can we infer the position of the obstacle by looking at the direction of the aircraft flying to the known goal region? If possible, we can infer intents without map information. Then we can minimize our reachable set by removing some heading angles that the drone may not go according to the inferred intent.
+- In that cases, we may can predict future trajectory of any drones when there is no obstacle and an user does not follow an optimal path by assuming imaginary obstacles. A drone can choose arbitrary paths, but with limited rate of change. The goal is known.
 
 --------
 ### Questions:
@@ -22,6 +23,8 @@ FaSTrack allows users to implement a fast motion planner for simplified dynamics
 --------
 ### Interesting references
 - Sylvia L. Herbert et al., FaSTrack:  a  Modular  Framework  for  Fast  and Guaranteed  Safe Motion  Planning
+- How did she calculate a tracking error?
+- How does pursuit-chase game work?
 
 --------
 Source: [FaSTrack: Fast and Safe Tracking — Sylvia Herbert](http://sylviaherbert.com/fastrack)
