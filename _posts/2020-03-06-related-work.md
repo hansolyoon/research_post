@@ -27,3 +27,11 @@ Maler, O.: Some thoughts on runtime verification. In: Falcone, Y., S ́anchez, C
 
  Sistla, A.P.,ˇZefran, M., Feng, Y.: Monitorability of stochastic dynamical systems.In: Gopalakrishnan, G., Qadeer, S. (eds.) CAV 2011. LNCS, vol. 6806, pp. 720–736.Springer, Heidelberg (2011).https://doi.org/10.1007/978-3-642-22110-158
 
+> Sotiropoulos et al. examine the ability of low-fidelity environmental simulations to reproduce bugs that were found during field tests of the same robot. Of the 33 bugs that occured during the filed test, only one could not be reproduced in the low-fidelity simulation.
+
+T. Sotiropoulos, H. Waeselynck, J. Guiochet, and F. Ingrand. Can robot navigation bugs be found in simulation? An exploratory study. In Softw. Qual. Reliab. Secur., pages 150-159. IEEE, 2017
+
+> Although several navigation algorithms exist, some cannot be used in safety-critical scenarios because they have not been verifed
+
+Collision avoidance for mobile robots with limited sensing and limited information about the environment.
+

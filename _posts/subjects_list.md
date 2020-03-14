@@ -7,6 +7,8 @@ lyapunov
 오일러 라그랑주, 해밀토니언
 ILP
 RRT
+iid
+PAC: probably almost correct
 embedded systems vs CPS
 
 
